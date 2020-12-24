@@ -4,10 +4,10 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/academicerpproject</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/academicerpdb?createDatabaseIfNotExist=true</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">Tomcat@8</property>
+        <property name="connection.username">anshuman</property>
+        <property name="connection.password">8Trigram^$palms</property>
 
         <!-- DB schema will be updated if needed -->
         <property name="hibernate.hbm2ddl.auto">update</property>
