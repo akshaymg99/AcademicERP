@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="Mark Otto, Jacob Thornton, and Bootstrap contributors" name="author">
+    <meta content="Jekyll v4.1.1" name="generator">
+    <title>Signin AcademicERP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/signin.css" rel="stylesheet">
+</head>
+<body class="text-center">
+<form class="form-signin" id="login-validation">
+    <h2 style="margin-bottom: 20px">Academic ERP</h2>
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+
+    <label class="sr-only" for="email">Email address</label>
+    <input autofocus class="form-control" id="email" placeholder="Email address" required type="email">
+    <div class="checkbox mb-3" style="margin-bottom: 20px; margin-top: 20px">
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block" id="submit-button" type="submit">
+        Sign in
+    </button>
+    <button class="btn btn-lg btn-primary btn-block" disabled id="spinner-button" style="display: none;" type="submit">
+        <span aria-hidden="true" class="spinner-border spinner-border-sm" role="status"></span>
+        Signing in...
+    </button>
+    <div class="alert alert-warning" id="login-alert" role="alert" style="display: none; margin-top: 20px">
+        Invalid Email Address!!
+    </div>
+    <p class="mt-5 mb-3 text-muted">&copy; 2020 - 2021</p>
+</form>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/login-validation.js"></script>
+<script src="assets/js/viewduedetails.js"></script>
+<script src="assets/js/viewpaiddetails.js"></script>
+</html>
